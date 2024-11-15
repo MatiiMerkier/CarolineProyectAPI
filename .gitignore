@@ -1,0 +1,35 @@
+# Archivos de compilación y temporales
+bin/
+obj/
+
+# Archivos generados por Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Archivos de configuración local específicos
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Archivos de configuración local que podrían contener información sensible
+appsettings.json
+secrets.json
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de logs
+*.log
+
+# Directorios específicos de caché y de compilación
+.vs2019/
+.vs2017/
+.vs2015/
+.dnx/
+.dnu/
+.project/
+.packages/
